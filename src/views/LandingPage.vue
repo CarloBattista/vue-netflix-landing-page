@@ -20,7 +20,7 @@ export default {
         HeroComp,
         BannerComp,
         CardComp
-    },
+    }
 }
 </script>
 
