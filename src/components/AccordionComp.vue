@@ -4,7 +4,7 @@
             <div class="container_heading">
                 <h2 class="heading">Domande frequenti</h2>
             </div>
-            <div class="accordion_container">
+            <div class="accordion_container_nv">
                 <ul class="card_faq_container">
                     <li class="faq_item" v-for="(acc, index) in accordion" :key="acc.id">
                         <div class="wrap_faq_heading" @click="toggleAccordion(acc.id)">
@@ -21,14 +21,22 @@
                     </li>
                 </ul>
             </div>
+            <div class="form_container_em">
+                <FormComp />
+            </div>
         </div>
         <div class="end_card_line_separator"></div>
     </div>
 </template>
 
 <script>
+import FormComp from './FormComp.vue';
+
 export default {
     name: "AccordionComp",
+    components: {
+        FormComp
+    },
     data() {
         return {
             accordion: [
@@ -103,6 +111,7 @@ export default {
 
 .container_heading {
     width: 100%;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 
@@ -174,6 +183,10 @@ export default {
     max-height: 75rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+.form_container_em{
+    padding: 0 1.5rem;
 }
 
 .end_card_line_separator {
