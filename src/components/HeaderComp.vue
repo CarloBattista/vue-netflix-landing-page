@@ -23,8 +23,8 @@
                                 fill="currentColor"></path>
                         </svg>
                     </div>
-                    <select class="selectLanguage" name="LanguageSelect">
-                        <option selected="" lang="it" label="Italiano" value="it-IT">Italiano</option>
+                    <select class="selectLanguage" name="LanguageSelect" @change="changeLanguage">
+                        <option selected lang="it" label="Italiano" value="it-IT">Italiano</option>
                         <option lang="en" label="English" value="en-IT">English</option>
                     </select>
                     <div class="box_icon bxi_right">
@@ -48,7 +48,7 @@
 
 <script>
 export default {
-    name: "HeaderComp"
+    name: "HeaderComp",
 }
 </script>
 
@@ -216,16 +216,17 @@ export default {
         padding: 1.5rem 1.5rem;
     }
 
-    .selectLanguage{
-        width: 0.0625rem!important;
-        padding-right: 1.75rem!important;
+    .selectLanguage {
+        width: 0.0625rem !important;
+        padding-right: 1.75rem !important;
     }
 }
 
 @media only screen and (max-width: 300px) {
-    .header{
+    .header {
         height: auto;
     }
+
     .inner_header {
         height: 100%;
     }
