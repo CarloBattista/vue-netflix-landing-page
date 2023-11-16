@@ -340,4 +340,5 @@ export default {
     .ads_plan_banner {
         margin-top: 16px;
     }
-}</style>
+}
+</style>
