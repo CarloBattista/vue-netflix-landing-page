@@ -3,7 +3,7 @@ import LandingPage from '../views/LandingPage.vue';
 
 const routes = [
     {
-        path: '/lp',
+        path: '/',
         name: 'landing-page',
         component: LandingPage,
         meta: { title: "Netflix Italia - Guarda serie TV online, Guarda film online" }

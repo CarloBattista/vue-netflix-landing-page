@@ -1,0 +1,49 @@
+/* Netflix Sans Normal */
+@font-face {
+    font-display: optional;
+    font-family: "Netflix Sans";
+    font-weight: 100;
+    src: url("/_resources/NetflixSans/_Webfonts/Woff/NetflixSans_W_Th.woff2") format("woff2")
+}
+
+@font-face {
+    font-display: optional;
+    font-family: "Netflix Sans";
+    font-weight: 300;
+    src: url("/_resources/NetflixSans/_Webfonts/Woff/NetflixSans_W_Lt.woff2") format("woff2")
+}
+
+@font-face {
+    font-display: optional;
+    font-family: "Netflix Sans";
+    font-weight: 400;
+    src: url("/_resources/NetflixSans/_Webfonts/Woff/NetflixSans_W_Rg.woff2") format("woff2")
+}
+
+@font-face {
+    font-display: optional;
+    font-family: "Netflix Sans";
+    font-weight: 500;
+    src: url("/_resources/NetflixSans/_Webfonts/Woff/NetflixSans_W_Md.woff2") format("woff2")
+}
+
+@font-face {
+    font-display: optional;
+    font-family: "Netflix Sans";
+    font-weight: 700;
+    src: url("/_resources/NetflixSans/_Webfonts/Woff/NetflixSans_W_Bd.woff2") format("woff2")
+}
+
+@font-face {
+    font-display: optional;
+    font-family: "Netflix Sans";
+    font-weight: 900;
+    src: url("/_resources/NetflixSans/_Webfonts/Woff/NetflixSans_W_Blk.woff2") format("woff2")
+}
+
+/* Netflix Sans Icons */
+@font-face {
+    font-display: optional;
+    font-family: "nf-icon";
+    src: url("/_resources/NetflixSans/_Webfonts/Woff/nf-icon-v1-93.woff") format("woff")
+}
