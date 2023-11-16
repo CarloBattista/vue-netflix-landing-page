@@ -4,6 +4,7 @@
         <HeroComp />
         <BannerComp />
         <CardComp />
+        <AccordionComp />
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import HeaderComp from '../components/HeaderComp.vue';
 import HeroComp from '../components/HeroComp.vue';
 import BannerComp from '../components/BannerComp.vue';
 import CardComp from '../components/CardComp.vue';
+import AccordionComp from '../components/AccordionComp.vue';
 
 export default {
     name: "LandingPage",
@@ -19,7 +21,8 @@ export default {
         HeaderComp,
         HeroComp,
         BannerComp,
-        CardComp
+        CardComp,
+        AccordionComp
     }
 }
 </script>
