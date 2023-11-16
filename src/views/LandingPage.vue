@@ -1,15 +1,18 @@
 <template>
-    <h1>Hello</h1>
+    <HeaderComp />
 </template>
 
 <script>
+    import HeaderComp from '../components/HeaderComp.vue';
+
     export default {
-        name: "LandingPage"
+        name: "LandingPage",
+        components: {
+            HeaderComp
+        }
     }
 </script>
 
 <style scoped>
-h1{
-    font-weight: 900;
-}
+
 </style>
