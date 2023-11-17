@@ -294,6 +294,12 @@ export default {
 
     .end_region {
         padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box_image {
+        max-width: 640px;
     }
 
     .change_order .end_region {
