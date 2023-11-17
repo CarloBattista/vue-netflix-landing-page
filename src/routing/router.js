@@ -20,7 +20,7 @@ router.beforeEach((to, from, next) => {
     if (pageTitle) {
         document.title = pageTitle;
     } else {
-        document.title = "";
+        document.title = "Netflix Italia";
     }
     next();
 });
