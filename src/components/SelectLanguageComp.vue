@@ -32,6 +32,7 @@ export default {
 <style scoped>
 .wrap_sl {
     position: relative;
+    width: 128px;
     min-height: 2rem;
     display: flex;
     align-items: center;
